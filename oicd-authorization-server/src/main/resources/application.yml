@@ -6,7 +6,7 @@ spring:
       # in the authorization server
 
       name: user
-      password: "{noop}secret"
+      password: "{noop}password"
       roles: USER
 
     # Oauth2 client registration starts from here
