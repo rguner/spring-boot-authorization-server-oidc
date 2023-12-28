@@ -56,6 +56,7 @@ spring:
 
       # Since our application acts as both authorization client and resource server,
       # here is the configuration for resource server
+      # olmazsa org.springframework.security.oauth2.jwt.JwtDecoder' that could not be found. hatası verir.
       resource-server:
         jwt:
           issuer-uri: http://localhost:8080
