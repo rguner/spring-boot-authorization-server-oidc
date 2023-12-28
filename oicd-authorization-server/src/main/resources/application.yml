@@ -69,7 +69,7 @@ spring:
 #        issuer-uri: http://127.0.0.1:8080/issuer
 logging:
   level:
-    root: DEBUG
+    root: INFO
     org:
       springframework:
         security: trace
