@@ -22,4 +22,11 @@ public class AppController {
     public ResponseEntity<String> getPrivateData() {
         return ResponseEntity.ok(appService.getJwtToken());
     }
+
+    @GetMapping("/private-data2")
+    public ResponseEntity<String> getPrivateData2() {
+        return ResponseEntity.ok("Private data 2");
+    }
+
+
 }
